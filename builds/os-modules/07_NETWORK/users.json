@@ -1,0 +1,30 @@
+{
+  "users": {
+    "sample_owner": {
+      "user_id": "7a102c754da5",
+      "username": "sample_owner",
+      "role": "OWNER",
+      "plan": "CUSTOM",
+      "created": "2026-11-17T23:45:37Z",
+      "password_algo": "pbkdf2_sha256",
+      "password_hash": "671bf81d4061724821c71ae61ec006bc77db1e6a5a6f1ef6480e9a39952ddc81",
+      "password_salt": "54f3f47f7f1321e42600275f1240ab6f",
+      "workspace": "07_NETWORK/workspaces/sample_owner",
+      "active": true,
+      "is_owner": true
+    },
+    "sample_family": {
+      "user_id": "fcbe2eb65693",
+      "username": "sample_family",
+      "role": "FAMILY_USER",
+      "plan": "FREE_FAMILY",
+      "created": "2026-11-17T23:45:37Z",
+      "password_algo": "pbkdf2_sha256",
+      "password_hash": "a228ff58f2fcd606eed8b8eab734203ab429df24369348cee06f62f8fca125f5",
+      "password_salt": "9cc3d899fd413342c46c9d0a6b34150c",
+      "workspace": "07_NETWORK/workspaces/sample_family",
+      "active": true,
+      "is_owner": false
+    }
+  }
+}

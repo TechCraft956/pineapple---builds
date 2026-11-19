@@ -1,0 +1,10 @@
+1. feed service up: GET /health -> 200
+2. unauthenticated POST /api/feed/items -> 401 (as expected)
+3. writer sensor_writer.py (sensor alerts): POST -> 200, inserted 4: ['sensor:esp32_garage_01:state', 'sensor:esp32_water_washer:state', 'sensor:esp32_garage_01:open_minutes', 'sensor:esp32_bike_battery:volts']
+3. writer simulator_writer.py (simulator results): POST -> 200, inserted 3: ['simulator:fha_now_vs_later', 'simulator:debt_vs_deploy', 'simulator:flip_vs_save']
+4. GET /api/feed/opportunities -> 7 items (4 sensor + 3 simulator)
+5. sensor records: lat/lon + firing rule + SAMPLE warning intact (4/4)
+6. simulator records: ANALYSIS ONLY warning verbatim in evidence + risk_notes + provenance (3/3); est_value == 1yr delta (3/3)
+7. re-post sensor_writer.py -> duplicates 4, conflicts 0 (idempotent)
+7. re-post simulator_writer.py -> duplicates 3, conflicts 0 (idempotent)
+ROUND-TRIP PASSED: 7/7 records posted and read back unchanged in meaning
