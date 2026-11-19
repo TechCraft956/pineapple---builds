@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*credential*
+*secret*
+*.key
+*.pem
+
+# Run artifacts / datasets (source-only snapshots)
+cache/
+evidence/
+data/
+out/
+output/
+*.zip
+*.pyc
+
+# Snapshot sync metadata (local only, never pushed)
+*.muse-github-snapshot-sync.json
+*.muse-github-snapshot-sync.json.tmp-*
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/settings.json
