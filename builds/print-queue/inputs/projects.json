@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "after_waiting_next_action": "MODEL",
+      "assigned_filament_id": "fil-petg-clear",
+      "blocker": "WAITING-ON-AIRAM: print the adcurtin parts + return the 8-item caliper checklist — D-flat depth is UNKNOWN, gear ratio is UNVERIFIED, and authorized powered-test RPM = 0 until the gear ratio is verified (hard safety hold).",
+      "colour_match": true,
+      "ease_grade": "L",
+      "est_filament_g": null,
+      "fit_context": "Clear PETG is the outdoor-suitable material on hand (PLA softens ~60 C in Roma sun); fit is only partial because the body parts are large (main housing up to 148.5 x 280.0 x 122.4 mm — sectioning/joining on the 256 mm P1S bed) and the adapter itself is not yet modelled.",
+      "id": "PQ-SIREN-001",
+      "legal_status": "not applicable — personal project from downloaded designs (adcurtin-60212, kayser-1179499, dual-tone-1183185); not a sale candidate in v1",
+      "make_route": "MODEL-FIRST",
+      "market_evidence": "Personal-use project (Airam, 2026-11-17); no sale/market evidence claimed — market factor is L by construction, not a judgement on the project",
+      "market_grade": "L",
+      "material_suitability": "partial",
+      "next_action": "WAITING-ON-AIRAM",
+      "retrieved_at_utc": "2026-11-17T00:00:00Z",
+      "size_class": "large",
+      "source_ref": "~/workspace/print-projects/siren/",
+      "state": "Downloaded designs measured in MEASUREMENTS.md / PRECISE_MEASUREMENTS.md (23 STL entries measured across the adcurtin, KAYSER and dual-tone designs). GPT's concept is a parametric drill-input adapter marrying the KAYSER drill handle and the stronger adcurtin body (the two do not mate as-is): 6.00 mm D-profile stub, D-flat depth UNKNOWN, gear ratio UNVERIFIED, 8-item caliper checklist outstanding. NOT build-ready.",
+      "title": "Drill-driven air siren — parametric drill-input adapter (adcurtin body + KAYSER drill handle concept)",
+      "use_context": "outdoor"
+    }
+  ],
+  "queued_at_utc": "2026-11-17T00:00:00Z",
+  "source": "Authored from ~/workspace/print-projects/siren/ (MEASUREMENTS.md, PRECISE_MEASUREMENTS.md, 2026-11-17) and the GPT adapter concept (bridge PRINT-20261117-002/003) as summarised in the build brief."
+}
