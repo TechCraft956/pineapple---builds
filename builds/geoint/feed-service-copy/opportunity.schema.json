@@ -1,0 +1,234 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "properties": {
+  "approval_status": {
+   "enum": [
+    "PENDING",
+    "APPROVED",
+    "REJECTED",
+    "NOT_REQUIRED"
+   ]
+  },
+  "asking_price": {
+   "type": [
+    "number",
+    "null"
+   ]
+  },
+  "collected_at": {
+   "format": "date-time",
+   "type": "string"
+  },
+  "confidence": {
+   "description": "Probability-weighted trust in est_value and executability",
+   "maximum": 1,
+   "minimum": 0,
+   "type": "number"
+  },
+  "constraints": {
+   "type": "string"
+  },
+  "costs": {
+   "properties": {
+    "fees": {
+     "default": 0,
+     "type": "number"
+    },
+    "other": {
+     "default": 0,
+     "type": "number"
+    },
+    "repairs": {
+     "default": 0,
+     "type": "number"
+    },
+    "transport": {
+     "default": 0,
+     "type": "number"
+    }
+   },
+   "type": "object"
+  },
+  "days_to_realize": {
+   "description": "Expected days capital is tied up",
+   "type": [
+    "number",
+    "null"
+   ]
+  },
+  "distance_mi": {
+   "type": [
+    "number",
+    "null"
+   ]
+  },
+  "est_value": {
+   "description": "Estimated realizable value / resale price, evidence-based",
+   "type": "number"
+  },
+  "evidence": {
+   "type": "string"
+  },
+  "evidence_quality": {
+   "enum": [
+    "verified_sold",
+    "live_comps",
+    "asking_comps",
+    "estimate",
+    null
+   ]
+  },
+  "id": {
+   "type": "string"
+  },
+  "labor_hours": {
+   "type": [
+    "number",
+    "null"
+   ]
+  },
+  "liquidity": {
+   "enum": [
+    "high",
+    "medium",
+    "low",
+    null
+   ]
+  },
+  "location": {
+   "type": "string"
+  },
+  "next_action": {
+   "type": "string"
+  },
+  "outcome": {
+   "properties": {
+    "lessons": {
+     "type": "string"
+    },
+    "realized_costs": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "realized_days": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "realized_value": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "status": {
+     "enum": [
+      "PURCHASED",
+      "SOLD",
+      "CLOSED",
+      "PASSED",
+      "EXPIRED"
+     ]
+    }
+   },
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "purchase_price": {
+   "description": "Modeled buy price (asking, or max justified price when negotiation is expected)",
+   "type": "number"
+  },
+  "risk_level": {
+   "enum": [
+    "low",
+    "medium",
+    "high",
+    null
+   ]
+  },
+  "risk_notes": {
+   "type": "string"
+  },
+  "source": {
+   "description": "Where it was found, e.g. facebook_marketplace + listing URL",
+   "type": "string"
+  },
+  "title": {
+   "type": "string"
+  },
+  "type": {
+   "description": "resale_arbitrage | patent_product | service_venture | trading_research | other",
+   "type": "string"
+  },
+  "est_value_low": {
+   "type": [
+    "number",
+    "null"
+   ],
+   "description": "Downside-case realizable value"
+  },
+  "est_value_high": {
+   "type": [
+    "number",
+    "null"
+   ],
+   "description": "Upside-case realizable value"
+  },
+  "sold_comp": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "description": "Required when evidence_quality is verified_sold: verifiable sold comparable",
+   "properties": {
+    "url": {
+     "type": "string"
+    },
+    "date": {
+     "type": "string"
+    },
+    "price": {
+     "type": "number"
+    }
+   }
+  },
+  "listing_key": {
+   "type": "string",
+   "description": "Stable canonical identity, e.g. fbm:<numeric marketplace id> or sample:<id>"
+  },
+  "qualification": {
+   "enum": [
+    "at_ask",
+    "if_negotiated",
+    null
+   ],
+   "description": "Whether the record qualifies at the asking price or only at the negotiated max price"
+  },
+  "collected_at_source": {
+   "enum": [
+    "listing",
+    "sweep_ran_at",
+    null
+   ],
+   "description": "Provenance of collected_at; never fabricated"
+  }
+ },
+ "required": [
+  "id",
+  "type",
+  "title",
+  "source",
+  "collected_at",
+  "purchase_price",
+  "est_value",
+  "confidence",
+  "approval_status"
+ ],
+ "title": "Pineapple Opportunity Record v0.2",
+ "type": "object"
+}

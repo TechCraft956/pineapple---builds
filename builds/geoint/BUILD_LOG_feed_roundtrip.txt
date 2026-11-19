@@ -1,0 +1,56 @@
+1. feed service up: GET /health -> 200
+2. writer sample (12):
+POST /api/feed/items -> 200
+{
+  "schema_version": 1,
+  "inserted": [
+    "geoint:SAMPLE-RGV-006",
+    "geoint:SAMPLE-RGV-010",
+    "geoint:SAMPLE-RGV-001",
+    "geoint:SAMPLE-RGV-003",
+    "geoint:SAMPLE-RGV-002",
+    "geoint:SAMPLE-RGV-008",
+    "geoint:SAMPLE-RGV-004",
+    "geoint:SAMPLE-RGV-005",
+    "geoint:SAMPLE-RGV-011",
+    "geoint:SAMPLE-RGV-009",
+    "geoint:SAMPLE-RGV-007",
+    "geoint:SAMPLE-RGV-012"
+  ],
+  "duplicates": [],
+  "conflicts": []
+}
+2. writer live (20):
+POST /api/feed/items -> 200
+{
+  "schema_version": 1,
+  "inserted": [
+    "geoint:L1080-00-00000-002-00-0",
+    "geoint:L1080-00-00000-001-00-0",
+    "geoint:L1080-00-00000-004-00-0",
+    "geoint:05410-00000-00039-000000",
+    "geoint:00165-07400-00900-004500",
+    "geoint:11916-00000-00300-000001",
+    "geoint:H0900-00-036-0008-01",
+    "geoint:L0400-00-00030-003-00-0",
+    "geoint:05410-00000-00040-000000",
+    "geoint:H0900-00-036-0017-00",
+    "geoint:H0900-00-036-0009-01",
+    "geoint:06-4370-0100-0070-00",
+    "geoint:00165-07400-00900-023910",
+    "geoint:06-4370-0100-0050-00",
+    "geoint:06-4370-0100-0040-00",
+    "geoint:H0900-00-036-0015-03",
+    "geoint:H0900-00-036-0016-00",
+    "geoint:06-4370-0100-0060-00",
+    "geoint:300",
+    "geoint:Q0060-00-00010-002-00-0"
+  ],
+  "duplicates": [],
+  "conflicts": []
+}
+3. GET /api/feed/opportunities?type=other -> total 32
+4. all 32 records carry warning + data_source; by source: {'willacy_cad_live': 5, 'stratmap_live': 10, 'starr_cad_live': 5, 'sample': 12}
+5. re-post sample batch -> duplicates 12, conflicts 0 (idempotent)
+6. unauthenticated POST /api/feed/items -> 401 (rejected)
+FEED ROUND-TRIP PASSED: 32/32 records posted and read back unchanged in meaning.
