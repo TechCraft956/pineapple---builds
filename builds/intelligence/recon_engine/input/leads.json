@@ -1,0 +1,52 @@
+[
+  {
+    "source": "tax_sale",
+    "title": "Tax sale: 3BR ranch, 1.2ac",
+    "category": "real_estate",
+    "price": 18000,
+    "est_value": 145000,
+    "posted_days_ago": 1,
+    "location": "County",
+    "url": ""
+  },
+  {
+    "source": "county_auction",
+    "title": "2014 Ford F-250 utility",
+    "category": "vehicle",
+    "price": 6500,
+    "est_value": 14000,
+    "posted_days_ago": 3,
+    "location": "County yard",
+    "url": ""
+  },
+  {
+    "source": "estate_sale",
+    "title": "Estate: tools, mower, trailer",
+    "category": "equipment",
+    "price": 900,
+    "est_value": 2600,
+    "posted_days_ago": 0,
+    "location": "Townline Rd",
+    "url": ""
+  },
+  {
+    "source": "surplus",
+    "title": "Surplus office furniture lot",
+    "category": "misc",
+    "price": 200,
+    "est_value": 350,
+    "posted_days_ago": 10,
+    "location": "City",
+    "url": ""
+  },
+  {
+    "source": "moving_sale",
+    "title": "Moving: TW200 motorcycle",
+    "category": "vehicle",
+    "price": 1800,
+    "est_value": 3200,
+    "posted_days_ago": 2,
+    "location": "Maple Dr",
+    "url": ""
+  }
+]
