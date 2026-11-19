@@ -1,0 +1,19 @@
+1. service up: GET /health -> 200
+2. GET /api/feed/apps -> 200, two historical apps: ['marketplace_scraper', 'template_app']
+3. writer output:
+POST /api/feed/items -> 200
+{
+  "schema_version": 1,
+  "inserted": [
+    "radar:SAMPLE-0001",
+    "radar:SAMPLE-0002",
+    "radar:SAMPLE-0003"
+  ],
+  "duplicates": [],
+  "conflicts": []
+}
+4. GET /api/feed/opportunities?type=patent_product -> total 3, ids: ['radar:SAMPLE-0001', 'radar:SAMPLE-0002', 'radar:SAMPLE-0003']
+5. unauthenticated POST /api/feed/items -> 401 (rejected)
+6. poll 1 (dashboard view): {'marketplace_scraper': 'idle', 'template_app': 'idle'}
+7. poll 2 after one record changed via API: {'marketplace_scraper': 'idle', 'template_app': 'running'}
+LIVE VERIFICATION PASSED: change visible on next poll, no rebuild.

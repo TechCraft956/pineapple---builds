@@ -1,0 +1,30 @@
+{
+  "marketplace_scraper": {
+    "app_name": "Marketplace Scraper",
+    "status": "idle",
+    "last_updated": "2026-04-17T06:01:23.713417+00:00",
+    "metrics": {
+      "new_listings": 7,
+      "total_filtered": 11,
+      "total_scraped": 63
+    },
+    "recent_events": [
+      "Scan complete \u2014 7 new, 11 passed filters"
+    ],
+    "actions": [
+      "run_scan",
+      "open_results"
+    ]
+  },
+  "template_app": {
+    "app_name": "Template App",
+    "status": "running",
+    "last_updated": "2026-11-17T21:45:37.684598+00:00",
+    "metrics": {
+      "items_checked": 20,
+      "items_matched": 14
+    },
+    "recent_events": [],
+    "actions": []
+  }
+}
