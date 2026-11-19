@@ -1,0 +1,35 @@
+<!-- tests/fixtures/thingiverse_search_2026-11-17.html
+SYNTHETIC fixture, built 2026-11-17. Structure reproduces the selectors the
+recovered scraper used against the live Thingiverse homepage
+(div.ThingCard__card / h3.ThingCard__title) and the card text of the REAL
+recorded paste in data/trends_input.txt (2025-01-31 recording): author,
+likes, downloads, remixes, title, in that order. It is NOT a raw capture:
+a live fetch of a Thingiverse search page on 2026-11-17 returned HTTP 403
+(anti-bot), so no raw capture exists. The live re-verification of these
+selectors is pending a browser-agent run (see SELECTORS.md).
+Card 3 is intentionally partial (no counts) to test the partial-page path.
+-->
+<html><body>
+<div class="ThingCard__card">
+  <a href="/thing:1234567"><h3 class="ThingCard__title">Universal 3D Printed Bearing That Works</h3></a>
+  ThinkingandTinkering
+  2K
+  1K
+  50
+</div>
+<div class="ThingCard__card">
+  <a href="/thing:2345678"><h3 class="ThingCard__title">Tiny Dragon Egg Box (sturdier)</h3></a>
+  fritz_w
+  2K
+  697
+  12
+</div>
+<div class="ThingCard__card">
+  <a href="/thing:3456789"><h3 class="ThingCard__title">Unfinished Draft Model</h3></a>
+  some_maker
+</div>
+<div class="ThingCard__card">
+  <!-- empty card: no title, must be skipped -->
+  <span>Advertisement</span>
+</div>
+</body></html>
