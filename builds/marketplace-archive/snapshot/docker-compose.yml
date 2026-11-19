@@ -1,0 +1,60 @@
+name: marketplace-scraper
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dealscope-api:local
+    container_name: dealscope_api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGO_URL=mongodb://dealscope_mongo:27017
+      - DB_NAME=dealscope
+      - FB_COOKIES_PATH=/app/cookies/fb_cookies.json
+      - TELEGRAM_BOT_TOKEN=8600785573:AAG2wbUWIEnoScdddSpqX5LPiOVlXjfm1hI
+      - TELEGRAM_CHAT_ID=8117077027
+      - ALERT_SCORE_THRESHOLD=70
+      - HOME_LAT=26.3837
+      - HOME_LON=-98.8219
+      - LOCAL_RADIUS_MILES=35
+      - STRETCH_RADIUS_MILES=110
+      - FAR_OVERRIDE_PROFIT=2500
+      - FAR_OVERRIDE_CATEGORIES=heavy_equipment,equipment,vehicles,motorcycles,cars+trucks
+      - LOCAL_FLIPS_MODE=true
+      - CRAIGSLIST_LOCATION=mcallen,laredo,corpuschristi,harlingen,brownsville,sfbay
+      - PINEAPPLE_STATE_PATH=/app/pineapple-state
+      - PINEAPPLE_CONTROL_PLANE_DIR=/Users/DdyFngr/Desktop/Projects/pineapple-ops-runtime
+    volumes:
+      # Cookies for Playwright auth — place fb_cookies.json here before scraping
+      - ./data/cookies:/app/cookies
+      # SQLite fallback storage and any module output
+      - ./data/storage:/app/storage
+      # Operator data — contact drafts, deal notes (gitignored)
+      - ./operator-data:/app/operator-data
+      # Legacy pineapple-state kept mounted read-only for compatibility only
+      - ./pineapple-state:/app/pineapple-state:ro
+      # Host-bound operator runtime outputs
+      - /Users/DdyFngr/Desktop/Projects/pineapple-ops-runtime:/Users/DdyFngr/Desktop/Projects/pineapple-ops-runtime
+    depends_on:
+      mongo:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/docs"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  mongo:
+    image: mongo:7
+    container_name: dealscope_mongo
+    restart: unless-stopped
+    volumes:
+      - ./data/mongodb:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
