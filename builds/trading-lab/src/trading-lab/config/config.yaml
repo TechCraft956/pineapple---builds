@@ -1,0 +1,38 @@
+# trading-lab configuration.
+#
+# Secrets do NOT go here. LSE_API_KEY comes from the environment or .env.
+# Every key below maps to a field on lab.core.config.LabConfig; unknown keys
+# are rejected on load so typos fail loudly instead of doing nothing.
+
+default_timeframe: "1m"
+cache_first: true
+max_live_symbols: 16
+
+# Execution assumptions. Start with the conservative defaults baked into
+# lab/core/instruments.py, then replace these with values measured from your
+# own fills once the journal has 50+ round turns
+# (lab/journal/costs_measure.py: measure_costs() + build_cost_overrides_yaml();
+# there is no scripts/measure_costs.py CLI in this branch).
+cost_overrides:
+  ES:
+    commission_round_turn: 4.00
+    default_slippage_ticks: 1.0
+  MES:
+    commission_round_turn: 1.00
+    default_slippage_ticks: 1.0
+  CL:
+    commission_round_turn: 4.40
+    default_slippage_ticks: 1.0
+  MCL:
+    commission_round_turn: 1.20
+    default_slippage_ticks: 1.0
+
+# When one bar touches both the stop and the target, assume the stop filled
+# first unless finer bars are supplied to resolve the sequence. Leave this on.
+pessimistic_intrabar: true
+
+# Account being simulated by default. Override per run on the CLI.
+account_size: 150000
+account_type: "funded"
+
+random_seed: 20260805

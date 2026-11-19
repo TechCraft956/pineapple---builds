@@ -1,0 +1,16 @@
+# Core research stack. Pinned loosely on purpose: this is a lab, not a service.
+pandas>=2.1
+numpy>=1.26
+pyarrow>=15.0
+scikit-learn>=1.4
+pyyaml>=6.0
+matplotlib>=3.8
+
+# Market data client for London Strategic Edge.
+# The [frames] extra is what makes history() return DataFrames instead of dicts.
+lse-data[frames]>=0.14
+
+# Optional but recommended.
+xgboost>=2.0        # gradient boosting baseline; the lab degrades gracefully without it
+jupyter>=1.0
+pytest>=8.0
