@@ -1,0 +1,22 @@
+{
+  "title": "sample money note",
+  "summary": "SAMPLE FIXTURE \u2014 Decision Engine first-run kit (not real owner data). Money note: the shop truck needs new tires, quoted $1,250 installed. The balance in the project jar is $480.",
+  "truth": {
+    "FACTS": [
+      "Money figure present: $1,250",
+      "Money figure present: $480",
+      "Decision: Decision",
+      "Decision: Decided"
+    ],
+    "LIKELY": [],
+    "UNKNOWN": []
+  },
+  "tags": [
+    "money",
+    "vehicle",
+    "opportunity",
+    "task"
+  ],
+  "confidence": 0.6,
+  "source": "/home/hatch/workspace/pineapple/builds/decision-engine/00_INBOX/sample_money_note.txt"
+}

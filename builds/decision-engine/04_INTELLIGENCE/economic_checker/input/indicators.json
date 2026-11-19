@@ -1,0 +1,37 @@
+[
+  {
+    "name": "mortgage_rate_30y",
+    "value": 6.1,
+    "prev": 6.8,
+    "unit": "%",
+    "direction_good": "down"
+  },
+  {
+    "name": "oil_price",
+    "value": 74,
+    "prev": 81,
+    "unit": "$/bbl",
+    "direction_good": "down"
+  },
+  {
+    "name": "construction_permits",
+    "value": 142,
+    "prev": 120,
+    "unit": "permits/mo",
+    "direction_good": "up"
+  },
+  {
+    "name": "manufacturing_announcements",
+    "value": 2,
+    "prev": 0,
+    "unit": "count",
+    "direction_good": "up"
+  },
+  {
+    "name": "unemployment_local",
+    "value": 4.4,
+    "prev": 4.1,
+    "unit": "%",
+    "direction_good": "down"
+  }
+]

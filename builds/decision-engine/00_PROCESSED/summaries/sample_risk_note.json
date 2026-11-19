@@ -1,0 +1,20 @@
+{
+  "title": "sample risk note",
+  "summary": "SAMPLE FIXTURE \u2014 Decision Engine first-run kit (not real owner data). Risk note: the storage-unit rent is overdue and a late fee of $35 applies. TODO: pay the $35 late fee and the $120 rent before the deadline.",
+  "truth": {
+    "FACTS": [
+      "Money figure present: $35",
+      "Money figure present: $120",
+      "Decision: Decision"
+    ],
+    "LIKELY": [],
+    "UNKNOWN": []
+  },
+  "tags": [
+    "money",
+    "risk",
+    "task"
+  ],
+  "confidence": 0.72,
+  "source": "/home/hatch/workspace/pineapple/builds/decision-engine/00_INBOX/sample_risk_note.txt"
+}

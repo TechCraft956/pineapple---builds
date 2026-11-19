@@ -1,0 +1,22 @@
+{
+  "title": "sample opportunity note",
+  "summary": "SAMPLE FIXTURE \u2014 Decision Engine first-run kit (not real owner data). Opportunity note: a local estate sale lists a used trailer for sale, an undervalued deal at $400. There is also a grant opportunity for small workshops \u2014 the application deadline is due 12/15/2026.",
+  "truth": {
+    "FACTS": [
+      "Money figure present: $400",
+      "Decision: Decision"
+    ],
+    "LIKELY": [
+      "A patent idea for a\ntrailer hitch accessory could be worth exploring later."
+    ],
+    "UNKNOWN": []
+  },
+  "tags": [
+    "money",
+    "vehicle",
+    "opportunity",
+    "task"
+  ],
+  "confidence": 0.78,
+  "source": "/home/hatch/workspace/pineapple/builds/decision-engine/00_INBOX/sample_opportunity_note.txt"
+}

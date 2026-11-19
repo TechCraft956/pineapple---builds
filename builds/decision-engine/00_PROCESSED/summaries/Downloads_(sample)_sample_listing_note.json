@@ -1,0 +1,21 @@
+{
+  "title": "sample listing note",
+  "summary": "SAMPLE FIXTURE \u2014 Decision Engine first-run kit, recorded scan source (not real owner data). Scanned source note: a generator deal spotted online \u2014 for sale at $85, a possible discount if negotiated. The listing mentions an auction nearby and an internship opening at the same shop.",
+  "truth": {
+    "FACTS": [
+      "Money figure present: $85",
+      "Decision: Decision"
+    ],
+    "LIKELY": [
+      "Probably worth a look, likely a\nquick flip, but condition is unknown until inspected."
+    ],
+    "UNKNOWN": []
+  },
+  "tags": [
+    "money",
+    "opportunity"
+  ],
+  "confidence": 0.54,
+  "source": "/home/hatch/workspace/pineapple/builds/decision-engine/sample_sources/Downloads/sample_listing_note.txt",
+  "scanned_from": "Downloads (sample)"
+}

@@ -1,0 +1,5 @@
+SAMPLE FIXTURE — Decision Engine first-run kit (not real owner data).
+Risk note: the storage-unit rent is overdue and a late fee of $35 applies.
+The renewal deadline is due 12/05/2026. Warning: if the payment is late
+again there is a penalty and possible default on the unit agreement.
+TODO: pay the $35 late fee and the $120 rent before the deadline.

@@ -1,0 +1,59 @@
+{
+  "generated": "2026-11-17T22:44:18Z",
+  "counts": {
+    "money_amounts": 5,
+    "opportunities": 9,
+    "risks": 6,
+    "deadlines": 6,
+    "tasks": 3,
+    "decisions": 2,
+    "people": 1
+  },
+  "top": {
+    "money_amounts": [
+      "$1,250",
+      "$480",
+      "$35",
+      "$120",
+      "$400"
+    ],
+    "opportunities": [
+      "discount",
+      "Opportunity",
+      "estate sale",
+      "for sale",
+      "undervalued",
+      "deal",
+      "grant",
+      "opportunity"
+    ],
+    "risks": [
+      "Risk",
+      "overdue",
+      "late fee",
+      "Warning",
+      "penalty",
+      "default"
+    ],
+    "deadlines": [
+      "before buying",
+      "before month end",
+      "deadline is due 12/05/2026",
+      "before the deadline",
+      "deadline is due 12/15/2026",
+      "before offering"
+    ],
+    "tasks": [
+      "call the tire shop and confirm the $1,250 quote in writing.",
+      "pay the $35 late fee and the $120 rent before the deadline.",
+      "check the estate sale trailer in person before offering."
+    ],
+    "decisions": [
+      "Decision",
+      "Decided"
+    ],
+    "people": [
+      "Decision Engine"
+    ]
+  }
+}

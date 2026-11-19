@@ -1,0 +1,59 @@
+{
+  "Downloads (sample)::/home/hatch/workspace/pineapple/builds/decision-engine/sample_sources/Downloads/sample_listing_note.txt": {
+    "source_path": "/home/hatch/workspace/pineapple/builds/decision-engine/sample_sources/Downloads/sample_listing_note.txt",
+    "source_name": "Downloads (sample)",
+    "filename": "sample_listing_note.txt",
+    "extension": ".txt",
+    "size_bytes": 372,
+    "date_added": "2026-11-17T22:44:03Z",
+    "date_modified": "2026-11-17T22:43:27Z",
+    "date_created": "2026-11-17T22:43:27Z",
+    "sha256": "f39810becb7cd26c791cc89887e6f26bce0a53481943f76ab91baf7be38f6df6",
+    "parser_used": "text",
+    "status": "ok",
+    "reason": "",
+    "title": "sample listing note",
+    "summary": "SAMPLE FIXTURE \u2014 Decision Engine first-run kit, recorded scan source (not real owner data). Scanned source note: a generator deal spotted online \u2014 for sale at $85, a possible discount if negotiated. The listing mentions an auction nearby and an internship opening at the same shop.",
+    "confidence": 0.54,
+    "tags": [
+      "money",
+      "opportunity"
+    ],
+    "truth": {
+      "FACTS": [
+        "Money figure present: $85",
+        "Decision: Decision"
+      ],
+      "LIKELY": [
+        "Probably worth a look, likely a\nquick flip, but condition is unknown until inspected."
+      ],
+      "UNKNOWN": []
+    },
+    "entities": {
+      "money_amounts": [
+        "$85"
+      ],
+      "dates": [],
+      "deadlines": [],
+      "people": [
+        "Decision Engine"
+      ],
+      "vehicles": [],
+      "properties": [],
+      "tasks": [],
+      "risks": [],
+      "opportunities": [
+        "deal",
+        "for sale",
+        "discount",
+        "auction",
+        "internship"
+      ],
+      "decisions": [
+        "Decision"
+      ],
+      "business_ideas": []
+    },
+    "_mtime": 1794955407.6595502
+  }
+}

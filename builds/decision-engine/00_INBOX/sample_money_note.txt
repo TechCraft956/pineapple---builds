@@ -1,0 +1,5 @@
+SAMPLE FIXTURE — Decision Engine first-run kit (not real owner data).
+Money note: the shop truck needs new tires, quoted $1,250 installed.
+Decided to wait until the next payout before buying. The balance in the
+project jar is $480. There may be a discount if we buy before month end.
+TODO: call the tire shop and confirm the $1,250 quote in writing.

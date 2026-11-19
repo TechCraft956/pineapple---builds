@@ -1,0 +1,33 @@
+{
+  "comment": "First-run seed for the Linux/cloud sandbox. Original Windows paths are kept in _path_map_for_this_sandbox and mapped to the workspace sample sources below; no Windows host paths are read on this runtime.",
+  "_path_map_for_this_sandbox": {
+    "C:\\Users\\chamg\\Downloads": "/home/hatch/workspace/pineapple/builds/decision-engine/sample_sources/Downloads"
+  },
+  "defaults": {
+    "max_file_size_mb": 25,
+    "max_files_per_scan": 400,
+    "excluded_folders": [
+      ".git",
+      "__pycache__",
+      "node_modules"
+    ],
+    "allowed_file_types": [
+      ".txt",
+      ".md",
+      ".csv",
+      ".json",
+      ".html",
+      ".pdf"
+    ]
+  },
+  "sources": [
+    {
+      "name": "Downloads (sample)",
+      "path": "/home/hatch/workspace/pineapple/builds/decision-engine/sample_sources/Downloads",
+      "enabled": true,
+      "recursive": true,
+      "metadata_only": false,
+      "last_scanned": "2026-11-17T22:44:18Z"
+    }
+  ]
+}

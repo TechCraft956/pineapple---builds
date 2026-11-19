@@ -1,0 +1,200 @@
+{
+  "00_INBOX/sample_money_note.txt": {
+    "source_path": "/home/hatch/workspace/pineapple/builds/decision-engine/00_INBOX/sample_money_note.txt",
+    "source_name": "00_INBOX/00_INBOX",
+    "filename": "sample_money_note.txt",
+    "extension": ".txt",
+    "size_bytes": 352,
+    "date_added": "2026-11-17T22:44:03Z",
+    "date_modified": "2026-11-17T22:43:27Z",
+    "date_created": "2026-11-17T22:43:27Z",
+    "sha256": "2aa8fe2a6cc80a1614261ff090262412cbb307cd0433f9edc2c0862b493a0d2d",
+    "parser_used": "text",
+    "status": "ok",
+    "reason": "",
+    "title": "sample money note",
+    "summary": "SAMPLE FIXTURE \u2014 Decision Engine first-run kit (not real owner data). Money note: the shop truck needs new tires, quoted $1,250 installed. The balance in the project jar is $480.",
+    "confidence": 0.6,
+    "tags": [
+      "money",
+      "vehicle",
+      "opportunity",
+      "task"
+    ],
+    "truth": {
+      "FACTS": [
+        "Money figure present: $1,250",
+        "Money figure present: $480",
+        "Decision: Decision",
+        "Decision: Decided"
+      ],
+      "LIKELY": [],
+      "UNKNOWN": []
+    },
+    "entities": {
+      "money_amounts": [
+        "$1,250",
+        "$480"
+      ],
+      "dates": [],
+      "deadlines": [
+        "before buying",
+        "before month end"
+      ],
+      "people": [
+        "Decision Engine"
+      ],
+      "vehicles": [
+        "truck"
+      ],
+      "properties": [],
+      "tasks": [
+        "call the tire shop and confirm the $1,250 quote in writing."
+      ],
+      "risks": [],
+      "opportunities": [
+        "discount"
+      ],
+      "decisions": [
+        "Decision",
+        "Decided"
+      ],
+      "business_ideas": []
+    }
+  },
+  "00_INBOX/sample_risk_note.txt": {
+    "source_path": "/home/hatch/workspace/pineapple/builds/decision-engine/00_INBOX/sample_risk_note.txt",
+    "source_name": "00_INBOX/00_INBOX",
+    "filename": "sample_risk_note.txt",
+    "extension": ".txt",
+    "size_bytes": 354,
+    "date_added": "2026-11-17T22:44:03Z",
+    "date_modified": "2026-11-17T22:43:27Z",
+    "date_created": "2026-11-17T22:43:27Z",
+    "sha256": "9a7b85d3c0db6fa891962cded328740d287141855bd5a2a05ed7eb419a3a896e",
+    "parser_used": "text",
+    "status": "ok",
+    "reason": "",
+    "title": "sample risk note",
+    "summary": "SAMPLE FIXTURE \u2014 Decision Engine first-run kit (not real owner data). Risk note: the storage-unit rent is overdue and a late fee of $35 applies. TODO: pay the $35 late fee and the $120 rent before the deadline.",
+    "confidence": 0.72,
+    "tags": [
+      "money",
+      "risk",
+      "task"
+    ],
+    "truth": {
+      "FACTS": [
+        "Money figure present: $35",
+        "Money figure present: $120",
+        "Decision: Decision"
+      ],
+      "LIKELY": [],
+      "UNKNOWN": []
+    },
+    "entities": {
+      "money_amounts": [
+        "$35",
+        "$120"
+      ],
+      "dates": [
+        "12/05/2026"
+      ],
+      "deadlines": [
+        "deadline is due 12/05/2026",
+        "before the deadline"
+      ],
+      "people": [
+        "Decision Engine"
+      ],
+      "vehicles": [],
+      "properties": [],
+      "tasks": [
+        "pay the $35 late fee and the $120 rent before the deadline."
+      ],
+      "risks": [
+        "Risk",
+        "overdue",
+        "late fee",
+        "Warning",
+        "penalty",
+        "default"
+      ],
+      "opportunities": [],
+      "decisions": [
+        "Decision"
+      ],
+      "business_ideas": []
+    }
+  },
+  "00_INBOX/sample_opportunity_note.txt": {
+    "source_path": "/home/hatch/workspace/pineapple/builds/decision-engine/00_INBOX/sample_opportunity_note.txt",
+    "source_name": "00_INBOX/00_INBOX",
+    "filename": "sample_opportunity_note.txt",
+    "extension": ".txt",
+    "size_bytes": 411,
+    "date_added": "2026-11-17T22:44:03Z",
+    "date_modified": "2026-11-17T22:43:27Z",
+    "date_created": "2026-11-17T22:43:27Z",
+    "sha256": "91ee80ea22491841219e754ca2fb32a45cfce9ba09f4c92f96c1540c5b168541",
+    "parser_used": "text",
+    "status": "ok",
+    "reason": "",
+    "title": "sample opportunity note",
+    "summary": "SAMPLE FIXTURE \u2014 Decision Engine first-run kit (not real owner data). Opportunity note: a local estate sale lists a used trailer for sale, an undervalued deal at $400. There is also a grant opportunity for small workshops \u2014 the application deadline is due 12/15/2026.",
+    "confidence": 0.78,
+    "tags": [
+      "money",
+      "vehicle",
+      "opportunity",
+      "task"
+    ],
+    "truth": {
+      "FACTS": [
+        "Money figure present: $400",
+        "Decision: Decision"
+      ],
+      "LIKELY": [
+        "A patent idea for a\ntrailer hitch accessory could be worth exploring later."
+      ],
+      "UNKNOWN": []
+    },
+    "entities": {
+      "money_amounts": [
+        "$400"
+      ],
+      "dates": [
+        "12/15/2026"
+      ],
+      "deadlines": [
+        "deadline is due 12/15/2026",
+        "before offering"
+      ],
+      "people": [
+        "Decision Engine"
+      ],
+      "vehicles": [
+        "trailer"
+      ],
+      "properties": [],
+      "tasks": [
+        "check the estate sale trailer in person before offering."
+      ],
+      "risks": [],
+      "opportunities": [
+        "Opportunity",
+        "estate sale",
+        "for sale",
+        "undervalued",
+        "deal",
+        "grant",
+        "opportunity",
+        "patent"
+      ],
+      "decisions": [
+        "Decision"
+      ],
+      "business_ideas": []
+    }
+  }
+}
