@@ -1,0 +1,49 @@
+{
+  "roma, texas": [
+    {
+      "subject": "Roma, Texas",
+      "subject_type": "place",
+      "claim": "Geocoded 'Roma, Texas' -> Roma, Starr County, Texas, United States",
+      "detail": {
+        "result": "FOUND",
+        "lat": "26.4094075",
+        "lon": "-99.0144578",
+        "class": null,
+        "type": "administrative",
+        "display_name": "Roma, Starr County, Texas, United States",
+        "locality": "Roma",
+        "state": "Texas",
+        "country": "United States",
+        "attribution": "Geocoding data \u00a9 OpenStreetMap contributors (ODbL)"
+      },
+      "verification": "VERIFIED",
+      "confidence": 0.9,
+      "field_confidence": {
+        "lat": {
+          "confidence": 0.9,
+          "retrieved_at_utc": "2026-11-18T06:01:47Z",
+          "source_id": "runner:place_geocode"
+        },
+        "lon": {
+          "confidence": 0.9,
+          "retrieved_at_utc": "2026-11-18T06:01:47Z",
+          "source_id": "runner:place_geocode"
+        },
+        "display_name": {
+          "confidence": 0.9,
+          "retrieved_at_utc": "2026-11-18T06:01:47Z",
+          "source_id": "runner:place_geocode"
+        },
+        "locality": {
+          "confidence": 0.9,
+          "retrieved_at_utc": "2026-11-18T06:01:47Z",
+          "source_id": "runner:place_geocode"
+        }
+      },
+      "source_id": "runner:place_geocode",
+      "source_url": "https://nominatim.openstreetmap.org/search?q=Roma%2C+Texas&format=jsonv2&addressdetails=1&limit=3",
+      "retrieved_at_utc": "2026-11-18T06:01:47Z",
+      "method": "CODE"
+    }
+  ]
+}
