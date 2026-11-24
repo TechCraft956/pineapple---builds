@@ -35,3 +35,11 @@ Every captured metric should include instrument and venue, contract/expiry, valu
 - Test the Pine board on a reversible research layout, including indicator-slot behavior, compile, chart session, prior-day bounds, and manual input provenance. Direct Sheet-to-Pine synchronization is not established.
 
 No automated orders, brokerage login, production schedule change or subscription purchase is implied by this research brief.
+
+## Execution and ICT / flow extensions
+
+- Execution lens: record setup trigger, order type, bid/ask, slippage, fees, fill and missed-fill assumptions, stop and management. Distinguish research scenarios from live orders. Use real user-supplied execution records where available; never infer fills from candle touches.
+- Cumulative volume delta (CVD): distinguish bid/ask-classified executed volume from bar-direction or lower-timeframe approximations; record symbol, feed, classification, aggregation, reset and time window. Investigate price/CVD divergence or absorption in the context of location, not as proof of hidden intent or a standalone edge. Availability and fidelity are not yet verified.
+- Fair value gaps (FVG): define bullish/bearish three-candle gap boundaries, timeframe, confirmation and lifecycle explicitly, with standard versus Heikin Ashi source stated. Study creation, first revisit, invalidation and relationship to session, VWAP and profile. Do not assume all gaps fill or treat overlap with other price-derived tools as independent confirmation.
+- Preserve existing SMC/ICT structures, liquidity sweeps, BOS/CHOCH, opening ranges, VWAP, session levels, profile, DOM and options context. Separate action roles (environment, location, setup, timing, risk/management) and identify overlap and missing capability; remove an element only after its job and alternatives are understood.
+- Existing research ledger (2026-10-04) documents a Sequence Engine on the historical es/crude/gold bench and Pine Logs extraction, plus weak generic breakout / failed-reclaim findings. This is a reuse lead, not current layout or profitability verification. Cumulative relative volume (RVOL) and cumulative volume delta (CVD) are different measurements; rejection of an RVOL signal does not invalidate CVD.
