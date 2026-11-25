@@ -1,0 +1,1 @@
+{"dependencies":{"express":"^4.21.0"},"description":"Express backend for the Pineapple Dashboard — JSON-file state store with the same actions as the live dashboard","main":"index.js","name":"pineapple-dashboard-server","private":true,"scripts":{"dev":"node index.js","start":"node index.js"},"type":"commonjs","version":"1.0.0"}

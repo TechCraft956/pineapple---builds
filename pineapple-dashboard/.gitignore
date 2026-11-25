@@ -1,0 +1,30 @@
+# Dependencies — node_modules is ignored; package-lock.json IS committed.
+node_modules/
+
+# Build output
+client/dist/
+client/dist-ssr/
+
+# Runtime data — the live dashboard state lives here and must NEVER be committed.
+# server/data/dashboard.sample.json IS committed (sample seed only).
+server/data/dashboard.json
+server/data/*.tmp-*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
