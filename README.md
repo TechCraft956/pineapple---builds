@@ -23,6 +23,7 @@ commit per build, pushed by Everest through the GitHub connector
 | decision-engine | Decision Engine + Context Intake + Source Scanner trio |
 | feed-dash | shared-feed service + Dash frontend |
 | geoint | TerraRecon — RGV parcels + FEMA flood scoring |
+| regional-capital | Regional Capital Radar — Starr County SBA loans, USAspending awards, TxDOT traffic (sensors #72/#31/#52) |
 | intelligence | 04_INTELLIGENCE group — 11 RGV public-record modules |
 | marketplace-archive | Marketplace Scraper — ARCHIVE (vehicle financing deal optimizer), not an active build |
 | os-modules | Remaining OS modules — 09_SENSORS, 07_NETWORK and related |

@@ -1,0 +1,40 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "route_name": "SH0130-LG",
+    "event_type": "Pothole",
+    "event_status": "Retired",
+    "event_created_timestamp": 1753111688806,
+    "event_modified_timestamp": 1753111122046
+   }
+  },
+  {
+   "attributes": {
+    "route_name": "IH0035-RG",
+    "event_type": "Detour",
+    "event_status": "Retired",
+    "event_created_timestamp": 1753111048062,
+    "event_modified_timestamp": 1753111086927
+   }
+  },
+  {
+   "attributes": {
+    "route_name": "TL0183-LG",
+    "event_type": "Detour",
+    "event_status": "Retired",
+    "event_created_timestamp": 1753110359424,
+    "event_modified_timestamp": 1753110727657
+   }
+  },
+  {
+   "attributes": {
+    "route_name": "SH0045-LG",
+    "event_type": "Lane Restriction",
+    "event_status": "Retired",
+    "event_created_timestamp": 1753111059097,
+    "event_modified_timestamp": 1754585924448
+   }
+  }
+ ]
+}

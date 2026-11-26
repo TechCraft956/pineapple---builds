@@ -1,0 +1,89 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "DIST_NM": "Pharr",
+    "CNTY_NM": "Hidalgo",
+    "TRFC_STATN_ID": "109HP131",
+    "LATEST_AADT_YR": 2025,
+    "AADT_RPT_QTY": 1468,
+    "AADT_RPT_HIST_01_QTY": null,
+    "AADT_RPT_HIST_02_QTY": 2717,
+    "AADT_RPT_HIST_03_QTY": 2088,
+    "AADT_RPT_HIST_04_QTY": 1752
+   },
+   "geometry": {
+    "x": -10916102.0293798,
+    "y": 3038868.0932428637
+   }
+  },
+  {
+   "attributes": {
+    "DIST_NM": "Pharr",
+    "CNTY_NM": "Hidalgo",
+    "TRFC_STATN_ID": "109CE101",
+    "LATEST_AADT_YR": 2024,
+    "AADT_RPT_QTY": null,
+    "AADT_RPT_HIST_01_QTY": 859,
+    "AADT_RPT_HIST_02_QTY": null,
+    "AADT_RPT_HIST_03_QTY": null,
+    "AADT_RPT_HIST_04_QTY": null
+   },
+   "geometry": {
+    "x": -10918553.511658829,
+    "y": 3023641.702770205
+   }
+  },
+  {
+   "attributes": {
+    "DIST_NM": "Pharr",
+    "CNTY_NM": "Hidalgo",
+    "TRFC_STATN_ID": "109CR114",
+    "LATEST_AADT_YR": 2022,
+    "AADT_RPT_QTY": null,
+    "AADT_RPT_HIST_01_QTY": null,
+    "AADT_RPT_HIST_02_QTY": null,
+    "AADT_RPT_HIST_03_QTY": 67,
+    "AADT_RPT_HIST_04_QTY": null
+   },
+   "geometry": {
+    "x": -10967534.198927362,
+    "y": 3029781.5842762776
+   }
+  },
+  {
+   "attributes": {
+    "DIST_NM": "Pharr",
+    "CNTY_NM": "Starr",
+    "TRFC_STATN_ID": "214CR10",
+    "LATEST_AADT_YR": 2024,
+    "AADT_RPT_QTY": null,
+    "AADT_RPT_HIST_01_QTY": 854,
+    "AADT_RPT_HIST_02_QTY": null,
+    "AADT_RPT_HIST_03_QTY": null,
+    "AADT_RPT_HIST_04_QTY": null
+   },
+   "geometry": {
+    "x": -10986605.676729046,
+    "y": 3038778.534988911
+   }
+  },
+  {
+   "attributes": {
+    "DIST_NM": "Pharr",
+    "CNTY_NM": "Hidalgo",
+    "TRFC_STATN_ID": "109CR114",
+    "LATEST_AADT_YR": 2022,
+    "AADT_RPT_QTY": null,
+    "AADT_RPT_HIST_01_QTY": null,
+    "AADT_RPT_HIST_02_QTY": null,
+    "AADT_RPT_HIST_03_QTY": 67,
+    "AADT_RPT_HIST_04_QTY": null
+   },
+   "geometry": {
+    "x": -10967534.198927362,
+    "y": 3029781.5842762776
+   }
+  }
+ ]
+}
