@@ -1,0 +1,14 @@
+Description:           Daily Index of EDGAR Dissemination Feed
+Last Data Received:    Nov 25, 2026
+Comments:              webmaster@sec.gov
+Anonymous FTP:         ftp://ftp.sec.gov/edgar/
+ 
+CIK|Company Name|Form Type|Date Filed|File Name
+--------------------------------------------------------------------------------
+0000320193|Apple Inc.|4|20261125|edgar/data/320193/0000320193-26-000123.txt
+0000789019|MICROSOFT CORP|13F-HR|20261125|edgar/data/789019/0000789019-26-000456.txt
+0001045810|NVIDIA CORP|8-K|20261125|edgar/data/1045810/0001045810-26-000789.txt
+0001234567|EXAMPLE IPO INC|S-1|20261125|edgar/data/1234567/0001234567-26-000001.txt
+0001234567|EXAMPLE IPO INC|424B4|20261125|edgar/data/1234567/0001234567-26-000002.txt
+0000765432|SAMPLE MERGER CO|S-4|20261125|edgar/data/765432/0000765432-26-000003.txt
+9999999999|BAD ROW MISSING FIELDS
