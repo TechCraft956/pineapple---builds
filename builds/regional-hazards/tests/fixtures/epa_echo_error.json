@@ -1,0 +1,7 @@
+{
+ "Results": {
+  "Error": {
+   "ErrorMessage": "We could not process your query. Please consult our Web service documentation [https://echo.epa.gov/tools/web-services] and try again, or contact ECHO Support [https://echo.epa.gov/resources/general-info/contact-us] if you need assistance."
+  }
+ }
+}

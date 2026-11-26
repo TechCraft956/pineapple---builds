@@ -1,0 +1,16 @@
+{
+ "Results": {
+  "Message": "Success",
+  "Version": "SDWA v2020-02-05 1500",
+  "QueryRows": "22",
+  "IndianCountryRows": "0",
+  "SVRows": "3",
+  "CVRows": "10",
+  "V3Rows": "10",
+  "FEARows": "2",
+  "InfFEARows": "10",
+  "INSPRows": "12",
+  "BadSystemIDs": null,
+  "QueryID": "731"
+ }
+}

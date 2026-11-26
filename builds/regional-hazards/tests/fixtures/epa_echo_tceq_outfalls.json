@@ -1,0 +1,31 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "GIS_NUMBER": "11212-003.001",
+    "PERMIT_NUM": "11212-003",
+    "PERMITTEE": "CITY OF ROMA",
+    "STATUS": "C",
+    "COUNTY": "STARR"
+   }
+  },
+  {
+   "attributes": {
+    "GIS_NUMBER": "10802-001.001",
+    "PERMIT_NUM": "10802-001",
+    "PERMITTEE": "CITY OF RIO GRANDE CITY",
+    "STATUS": "C",
+    "COUNTY": "STARR"
+   }
+  },
+  {
+   "attributes": {
+    "GIS_NUMBER": "11212-002.001",
+    "PERMIT_NUM": "11212-002",
+    "PERMITTEE": "CITY OF ROMA",
+    "STATUS": "C",
+    "COUNTY": "STARR"
+   }
+  }
+ ]
+}

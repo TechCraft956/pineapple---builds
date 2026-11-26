@@ -1,0 +1,90 @@
+{
+ "properties": {
+  "updated": null,
+  "units": "us",
+  "generatedAt": "2026-11-26T18:59:27+00:00",
+  "periods": [
+   {
+    "number": 1,
+    "name": "",
+    "startTime": "2026-11-26T12:00:00-06:00",
+    "endTime": "2026-11-26T13:00:00-06:00",
+    "isDaytime": true,
+    "temperature": 61,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "probabilityOfPrecipitation": {
+     "unitCode": "wmoUnit:percent",
+     "value": 0
+    },
+    "dewpoint": {
+     "unitCode": "wmoUnit:degC",
+     "value": 3.3333333333333335
+    },
+    "relativeHumidity": {
+     "unitCode": "wmoUnit:percent",
+     "value": 42
+    },
+    "windSpeed": "3 mph",
+    "windDirection": "N",
+    "icon": "https://api.weather.gov/icons/land/day/bkn?size=small",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": ""
+   },
+   {
+    "number": 2,
+    "name": "",
+    "startTime": "2026-11-26T13:00:00-06:00",
+    "endTime": "2026-11-26T14:00:00-06:00",
+    "isDaytime": true,
+    "temperature": 61,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "probabilityOfPrecipitation": {
+     "unitCode": "wmoUnit:percent",
+     "value": 0
+    },
+    "dewpoint": {
+     "unitCode": "wmoUnit:degC",
+     "value": 2.7777777777777777
+    },
+    "relativeHumidity": {
+     "unitCode": "wmoUnit:percent",
+     "value": 40
+    },
+    "windSpeed": "3 mph",
+    "windDirection": "N",
+    "icon": "https://api.weather.gov/icons/land/day/bkn?size=small",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": ""
+   },
+   {
+    "number": 3,
+    "name": "",
+    "startTime": "2026-11-26T14:00:00-06:00",
+    "endTime": "2026-11-26T15:00:00-06:00",
+    "isDaytime": true,
+    "temperature": 62,
+    "temperatureUnit": "F",
+    "temperatureTrend": null,
+    "probabilityOfPrecipitation": {
+     "unitCode": "wmoUnit:percent",
+     "value": 0
+    },
+    "dewpoint": {
+     "unitCode": "wmoUnit:degC",
+     "value": 2.7777777777777777
+    },
+    "relativeHumidity": {
+     "unitCode": "wmoUnit:percent",
+     "value": 38
+    },
+    "windSpeed": "3 mph",
+    "windDirection": "N",
+    "icon": "https://api.weather.gov/icons/land/day/bkn?size=small",
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": ""
+   }
+  ]
+ }
+}

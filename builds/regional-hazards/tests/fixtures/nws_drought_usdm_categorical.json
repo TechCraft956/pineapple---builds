@@ -1,0 +1,32 @@
+[
+ {
+  "mapDate": "2026-11-24T00:00:00",
+  "fips": "48427",
+  "county": "Starr County",
+  "state": "TX",
+  "none": 0.0,
+  "d0": 1214.95,
+  "d1": 0.0,
+  "d2": 0.0,
+  "d3": 0.0,
+  "d4": 0.0,
+  "validStart": "2026-11-24T00:00:00",
+  "validEnd": "2026-11-30T23:59:59",
+  "statisticFormatID": 2
+ },
+ {
+  "mapDate": "2026-11-17T00:00:00",
+  "fips": "48427",
+  "county": "Starr County",
+  "state": "TX",
+  "none": 0.0,
+  "d0": 911.69,
+  "d1": 303.26,
+  "d2": 0.0,
+  "d3": 0.0,
+  "d4": 0.0,
+  "validStart": "2026-11-17T00:00:00",
+  "validEnd": "2026-11-23T23:59:59",
+  "statisticFormatID": 2
+ }
+]

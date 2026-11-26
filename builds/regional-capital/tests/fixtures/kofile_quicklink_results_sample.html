@@ -1,0 +1,28 @@
+<!-- SYNTHETIC FIXTURE — NOT a real capture.
+     No QuickLink search has ever completed from this environment (the one
+     probe postback timed out at 30 s), so no real results page exists to
+     capture. This file is a representative results page in the plausible
+     QuickLink grid shape (a table of index-book rows: party, party,
+     instrument/book, volume/page) built ONLY to exercise the generic
+     results parser. Names, book/page numbers and dates are invented
+     placeholders and must never be reported as real Starr County records.
+     See tests/test_kofile.py::TestQuicklinkResultsParsing. -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head><title>QuickLink - Starr County, Texas - Search Results</title></head>
+<body>
+<form name="aspnetForm" method="post" action="./Default.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="synthetic-viewstate-value" />
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D51A8A87" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="synthetic-eventvalidation-value" />
+<div id="results">
+<table id="ctl00_ctl00_ImageContent_MainContent_grdResults" border="1">
+<tr><th>Grantor</th><th>Grantee</th><th>Instrument</th><th>Book / Page</th><th>Date</th></tr>
+<tr><td>EXAMPLE GRANTOR</td><td>EXAMPLE GRANTEE</td><td>Deed</td><td>Vol 12 Pg 345</td><td>01/15/1901</td></tr>
+<tr><td>SECOND GRANTOR</td><td>SECOND GRANTEE</td><td>Deed</td><td>Vol 12 Pg 350</td><td>02/03/1901</td></tr>
+<tr><td>THIRD GRANTOR</td><td>THIRD GRANTEE</td><td>Deed of Trust</td><td>Vol 13 Pg 10</td><td>03/22/1901</td></tr>
+</table>
+</div>
+</form>
+</body>
+</html>
