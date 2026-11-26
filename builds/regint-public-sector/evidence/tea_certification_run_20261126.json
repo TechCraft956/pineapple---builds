@@ -1,0 +1,498 @@
+{
+  "sensor": "tea-educator-certification",
+  "source": "https://tealprod.tea.state.tx.us/ECOS-External/EcosOnline/VirtCert",
+  "observed_at": "2026-11-26T19:53:42.155285+00:00",
+  "mode": "LIVE",
+  "observations": [
+    {
+      "sensor": "tea-educator-certification",
+      "roster_key": "roma-isd-superintendent",
+      "district": "Roma ISD",
+      "district_id": "214903",
+      "role": "Superintendent",
+      "searched_last_name": "Gonzalez",
+      "searched_first_name": "Carlos",
+      "expected_credential": "Superintendent",
+      "source": "https://tealprod.tea.state.tx.us/ECOS-External/EcosOnline/VirtCert",
+      "retrieved_at_utc": "2026-11-26T19:53:42.155342+00:00",
+      "match_count": 34,
+      "exact_match_count": 34,
+      "status": "VERIFIED",
+      "record_name": "Carlos Miguel Gonzalez Jr",
+      "spid": "335508",
+      "certificates": [
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "07/01/2024",
+          "expiration": "06/30/2030",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Superintendent",
+          "grades": "Grades (EC-12)",
+          "effective": "07/01/2024",
+          "expiration": "06/30/2030",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "PROVISIONAL",
+          "description": "Secondary Physical Education",
+          "grades": "Grades (6-12)",
+          "effective": "03/28/1990",
+          "expiration": "Life",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "PARAPROFESSIONAL",
+          "description": "Educational Aide II",
+          "grades": null,
+          "effective": "05/30/1983",
+          "expiration": "Life",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "07/01/2012",
+          "expiration": "06/30/2018",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "07/01/2018",
+          "expiration": "06/30/2024",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "05/20/2007",
+          "expiration": "06/30/2012",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Superintendent",
+          "grades": "Grades (EC-12)",
+          "effective": "07/01/2012",
+          "expiration": "06/30/2018",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Superintendent",
+          "grades": "Grades (EC-12)",
+          "effective": "07/01/2018",
+          "expiration": "06/30/2024",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Superintendent",
+          "grades": "Grades (EC-12)",
+          "effective": "01/05/2012",
+          "expiration": "06/30/2012",
+          "status": "Expired",
+          "section": "history"
+        }
+      ],
+      "expected_credential_found": true,
+      "official_record_date": "Thursday, November 26, 2026",
+      "note": "Uniquely identified among 34 exact-name match(es) by the Superintendent credential."
+    },
+    {
+      "sensor": "tea-educator-certification",
+      "roster_key": "rgc-grulla-isd-superintendent",
+      "district": "Rio Grande City Grulla ISD",
+      "district_id": "214901",
+      "role": "Superintendent",
+      "searched_last_name": "Garza",
+      "searched_first_name": "Guadalupe",
+      "expected_credential": "Superintendent",
+      "source": "https://tealprod.tea.state.tx.us/ECOS-External/EcosOnline/VirtCert",
+      "retrieved_at_utc": "2026-11-26T19:54:15.804844+00:00",
+      "match_count": 27,
+      "exact_match_count": 27,
+      "status": "VERIFIED",
+      "record_name": "Guadalupe S Garza",
+      "spid": "337366",
+      "certificates": [
+        {
+          "category": "STANDARD",
+          "description": "Elementary Self-Contained",
+          "grades": "Grades (1-6)",
+          "effective": "01/01/2026",
+          "expiration": "12/31/2031",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Generic Special Education",
+          "grades": "Grades (PK-12)",
+          "effective": "01/01/2026",
+          "expiration": "12/31/2031",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Bilingual/ESL-Spanish",
+          "grades": "Grades (PK-12)",
+          "effective": "01/01/2026",
+          "expiration": "12/31/2031",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "01/01/2026",
+          "expiration": "12/31/2031",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Superintendent",
+          "grades": "Grades (EC-12)",
+          "effective": "01/01/2026",
+          "expiration": "12/31/2031",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "PARAPROFESSIONAL",
+          "description": "Educational Aide II",
+          "grades": null,
+          "effective": "06/02/1995",
+          "expiration": "Life",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Elementary Self-Contained",
+          "grades": "Grades (1-6)",
+          "effective": "01/14/2000",
+          "expiration": "12/31/2005",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Elementary Self-Contained",
+          "grades": "Grades (1-6)",
+          "effective": "01/01/2006",
+          "expiration": "12/31/2011",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Elementary Self-Contained",
+          "grades": "Grades (1-6)",
+          "effective": "10/19/2014",
+          "expiration": "12/31/2019",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Elementary Self-Contained",
+          "grades": "Grades (1-6)",
+          "effective": "07/23/2020",
+          "expiration": "12/31/2025",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Generic Special Education",
+          "grades": "Grades (PK-12)",
+          "effective": "07/24/2003",
+          "expiration": "12/31/2005",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Generic Special Education",
+          "grades": "Grades (PK-12)",
+          "effective": "01/01/2006",
+          "expiration": "12/31/2011",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Generic Special Education",
+          "grades": "Grades (PK-12)",
+          "effective": "10/19/2014",
+          "expiration": "12/31/2019",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Generic Special Education",
+          "grades": "Grades (PK-12)",
+          "effective": "07/23/2020",
+          "expiration": "12/31/2025",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Bilingual/ESL-Spanish",
+          "grades": null,
+          "effective": "07/24/2003",
+          "expiration": "12/31/2005",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Bilingual/ESL-Spanish",
+          "grades": null,
+          "effective": "01/01/2006",
+          "expiration": "12/31/2011",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Bilingual/ESL-Spanish",
+          "grades": null,
+          "effective": "10/19/2014",
+          "expiration": "12/31/2019",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Bilingual/ESL-Spanish",
+          "grades": null,
+          "effective": "07/23/2020",
+          "expiration": "12/31/2025",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "01/01/2006",
+          "expiration": "12/31/2011",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "10/19/2014",
+          "expiration": "12/31/2019",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "07/23/2020",
+          "expiration": "12/31/2025",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "05/30/2002",
+          "expiration": "12/31/2005",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Superintendent",
+          "grades": "Grades (EC-12)",
+          "effective": "07/23/2020",
+          "expiration": "12/31/2025",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Superintendent",
+          "grades": "Grades (EC-12)",
+          "effective": "05/11/2017",
+          "expiration": "12/31/2019",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "EMERGENCY PERMIT",
+          "description": "Elementary Bilingual-Spanish",
+          "grades": "Grades (1-6)",
+          "effective": "08/13/1998",
+          "expiration": "08/31/1999",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "EMERGENCY PERMIT",
+          "description": "Elementary Bilingual-Spanish",
+          "grades": "Grades (1-6)",
+          "effective": "08/17/1999",
+          "expiration": "08/31/2000",
+          "status": "Expired",
+          "section": "history"
+        }
+      ],
+      "expected_credential_found": true,
+      "official_record_date": "Thursday, November 26, 2026",
+      "note": "Uniquely identified among 27 exact-name match(es) by the Superintendent credential."
+    },
+    {
+      "sensor": "tea-educator-certification",
+      "roster_key": "san-isidro-isd-superintendent",
+      "district": "San Isidro ISD",
+      "district_id": "214902",
+      "role": "Superintendent",
+      "searched_last_name": "Morris",
+      "searched_first_name": "Elsa",
+      "expected_credential": "Superintendent",
+      "source": "https://tealprod.tea.state.tx.us/ECOS-External/EcosOnline/VirtCert",
+      "retrieved_at_utc": "2026-11-26T19:54:41.718241+00:00",
+      "match_count": 1,
+      "exact_match_count": 1,
+      "record_name": "Elsa V Morris",
+      "spid": null,
+      "certificates": [
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "11/01/2026",
+          "expiration": "10/31/2032",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Superintendent",
+          "grades": "Grades (EC-12)",
+          "effective": "11/01/2026",
+          "expiration": "10/31/2032",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "PROVISIONAL",
+          "description": "Secondary English",
+          "grades": "Grades (6-12)",
+          "effective": "07/25/1997",
+          "expiration": "Life",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "PROFESSIONAL",
+          "description": "Counselor",
+          "grades": "Grades (PK-12)",
+          "effective": "05/20/1999",
+          "expiration": "Life",
+          "status": "Valid",
+          "section": "current"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "11/01/2008",
+          "expiration": "10/31/2014",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "11/01/2014",
+          "expiration": "10/31/2020",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "11/01/2020",
+          "expiration": "10/31/2026",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Principal",
+          "grades": "Grades (EC-12)",
+          "effective": "05/15/2003",
+          "expiration": "10/31/2008",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Superintendent",
+          "grades": "Grades (EC-12)",
+          "effective": "11/01/2020",
+          "expiration": "10/31/2026",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "STANDARD",
+          "description": "Superintendent",
+          "grades": "Grades (EC-12)",
+          "effective": "06/22/2020",
+          "expiration": "10/31/2020",
+          "status": "Expired",
+          "section": "history"
+        },
+        {
+          "category": "EMERGENCY PERMIT",
+          "description": "Secondary English",
+          "grades": "Grades (6-12)",
+          "effective": "08/15/1995",
+          "expiration": "08/31/1996",
+          "status": "Expired",
+          "section": "history"
+        }
+      ],
+      "expected_credential_found": true,
+      "official_record_date": "Thursday, November 26, 2026",
+      "status": "VERIFIED",
+      "note": "Single match landed straight on the record; name and credential agree."
+    }
+  ],
+  "errors": []
+}
